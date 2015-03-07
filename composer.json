@@ -1,0 +1,16 @@
+{
+    "name" : "doostan/container",
+    "type": "library",
+    "description": "sample Dependency Injection Container",
+    "keywords": ["ependency","injection","container"],
+    "homepage": "https://github.com/doostan/container",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Doostan" : "./src"
+        }
+    }
+}
