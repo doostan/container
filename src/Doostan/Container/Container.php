@@ -29,7 +29,7 @@ class Container
      * sets a service.
      *
      * @param string $id
-     * @param mixed $service
+     * @param object|callable $service
      * @return void
      */
     public function setService($id, $service)
